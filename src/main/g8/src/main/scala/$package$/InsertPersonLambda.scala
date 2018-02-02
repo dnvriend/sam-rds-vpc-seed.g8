@@ -40,7 +40,7 @@ object InsertPersonLambda extends ApiGatewayHandler {
 
       val insertCounter = insertStatement executeUpdate()
 
-      HttpResponse.ok.withBody(Json.toJson(s"Inserted $insertCounter record(s)"))
+      HttpResponse.ok.withBody(Json.toJson("Inserted" + insertCounter +  "record(s)"))
     }
   }
 }

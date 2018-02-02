@@ -1,5 +1,5 @@
 # sam-rds-vpc-seed.g8
-A template project for quickly creating an AWS Lambda which connects to a AWS RDS in a VPC and has a API GW event handler.
+A template project for quickly creating an AWS Lambda which connects to an AWS RDS in a VPC and has an API GW event handler.
 
 For more information see [sbt-sam](https://github.com/dnvriend/sbt-sam)
 
