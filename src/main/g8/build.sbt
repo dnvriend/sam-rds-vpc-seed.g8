@@ -1,8 +1,8 @@
 
 lazy val `$name$` = (project in file("."))
   .settings(
-	  libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.23",
-    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.23",
+	  libraryDependencies += "com.github.dnvriend" %% "sam-annotations" % "1.0.27",
+    libraryDependencies += "com.github.dnvriend" %% "sam-lambda" % "1.0.27",
     libraryDependencies += "com.amazonaws" % "aws-lambda-java-core" % "1.2.0",
     libraryDependencies += "org.playframework.anorm" %% "anorm" % "2.6.0",
     libraryDependencies += "com.typesafe.play" %% "play-json" % "2.6.8",
